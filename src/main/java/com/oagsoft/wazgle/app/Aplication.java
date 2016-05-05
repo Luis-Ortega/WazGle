@@ -1,5 +1,7 @@
 package com.oagsoft.wazgle.app;
 
+import com.oagsoft.grafo.data.Grafo;
+import com.oagsoft.grafo.util.XMLLoader;
 import com.oagsoft.wazgle.data.GraphicObject;
 import com.oagsoft.wazgle.tools.FactoryGraph;
 import com.oagsoft.wazgle.view.MapPanel;
@@ -39,6 +41,8 @@ public class Aplication extends JFrame implements ActionListener
     {
         // TODO: Esta linea se debe reemplazar por la lectura del archivo xml.
         elementsGraph = FactoryGraph.create();
+        
+       // Grafo g = XMLLoader.leerArchivoXml("grafo.xml");
 
         panel = new MapPanel("ImgMap.png", "ImgSat.png", elementsGraph);
         add(BorderLayout.CENTER, panel);
