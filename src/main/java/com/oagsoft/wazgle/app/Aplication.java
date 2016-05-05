@@ -1,7 +1,7 @@
 package com.oagsoft.wazgle.app;
 
-import com.oagsoft.grafo.data.Grafo;
-import com.oagsoft.grafo.util.XMLLoader;
+//import com.oagsoft.grafo.data.Grafo; //NO SE ENCUENTRA LA INSTANCIA//
+//import com.oagsoft.grafo.util.XMLLoader;//NO SE ENCUENTRA LA INSTANCIA//
 import com.oagsoft.wazgle.data.GraphicObject;
 import com.oagsoft.wazgle.tools.FactoryGraph;
 import com.oagsoft.wazgle.view.MapPanel;
